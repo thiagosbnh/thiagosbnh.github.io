@@ -1,0 +1,40 @@
+body{
+	horizontal-align: center;
+	vertical-align: center;
+	margin: 0 auto;
+	margin:30px;
+	backgorund-color:222222
+}
+
+#rock{
+	width: 10%;
+	height:60px;
+	background-color:#666666;
+	color: white;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	border-radius:15px;
+}
+
+#paper{
+	width: 10%;
+	height:60px;
+	background-color:#666666;
+	color: white;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	border-radius:15px;
+}
+
+#scissors{
+	width: 10%;
+	height:60px;
+	background-color:#666666;
+	color: white;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	border-radius:15px;
+}
