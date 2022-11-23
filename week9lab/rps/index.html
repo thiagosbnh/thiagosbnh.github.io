@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Week 9 Lab - Thiago Barbosa - 21.11.2022 -->
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+	<title>Week 9 Lab - Rock Paper Scissors Game v2.0</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-xs-12" style="padding-bottom:20px">
+			<h4>Choose Rock, Paper or Scissors and try to beat me!</h4>
+			<span style="color:red;font-size:20px;margin-bottom:20px">You have only 3 chances to win!</span>
+		</div>
+		<div class="col-xs-12">
+			<button type="submit" id="rock" onclick="playGame(0)">ROCK</button>
+			<button type="submit" id="paper" onclick="playGame(1)">PAPER</button>
+			<button type="submit" id="scissors" onclick="playGame(2)">SCISSORS</button>
+		</div>
+	</div>
+</body>
+</html>

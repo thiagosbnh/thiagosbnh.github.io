@@ -1,0 +1,26 @@
+/*
+Week 9 Lab
+Thiago Barbosa - 21.11.22
+*/
+
+body{
+	margin: 0 auto;
+	margin:30px;
+	backgorund-color:222222
+}
+
+#buttonBeer{
+	height:110px;
+	width:300px;
+	font-size:28px;
+	font-weight:bold;
+	border:none;
+	background-image:url('beer_texture.jpg');
+	background-size: cover;
+}
+
+#songLyrics{
+	margin-top:30px;
+	font-size:14px;
+	line-height:18px;
+}
