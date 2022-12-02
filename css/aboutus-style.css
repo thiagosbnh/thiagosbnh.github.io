@@ -1,0 +1,51 @@
+.service{
+	height: 100px;
+	font-size:18px;
+	letter-spacing:2px;
+	text-transform: uppercase;
+	font-weight:bold;
+	color:#2C2759;
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	border:none;
+	background-color: transparent;
+	margin:5px;
+}
+
+.massage{
+	background-image: url("../images/icon-massage-01.svg");
+	width:70px;
+}
+
+.acupunture{
+	background-image: url("../images/icon-acupunture-01.svg");
+	width:70px;
+}
+
+.energy{
+	background-image: url("../images/icon-reiki-01.svg");
+	width:70px;
+}
+
+.services-section{
+	background-color:white;
+}
+
+.description-box{
+	background-color:#A4A1C2;
+	height: 320px;
+	margin-left:30px;
+	border-radius: 0px;
+	padding:40px;
+}
+#servicetitle{
+	color: white;
+	font-size: 20px;
+	font-weight:400;
+	text-transform: uppercase;
+}
+#servicetext{
+	color: white;
+	font-weight:300;
+}
