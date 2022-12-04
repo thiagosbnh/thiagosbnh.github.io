@@ -8,10 +8,13 @@ label{
 }
 
 input, textarea {
-  width: 100%;
-  font-weight:300;
-  font-size:20px;
-  padding:5px 5px 5px 10px;
+	width: 100%;
+	font-weight:300;
+	font-size:20px;
+	padding:5px 5px 5px 10px;
+	border:none;
+	margin: 10px 0;
+	border-radius: 5px;
 }
 
 .button-primary{

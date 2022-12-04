@@ -1,51 +1,70 @@
-.service{
-	height: 100px;
-	font-size:18px;
-	letter-spacing:2px;
-	text-transform: uppercase;
-	font-weight:bold;
-	color:#2C2759;
-	background-position-x: center;
-	background-position-y: center;
-	background-repeat: no-repeat;
-	border:none;
-	background-color: transparent;
-	margin:5px;
+p{
+	margin-top:20px;
 }
 
-.massage{
-	background-image: url("../images/icon-massage-01.svg");
-	width:70px;
+
+/* The button that opens and closes the collapsed section*/
+.collapsible {
+	color: white;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size:22px;
+	letter-spacing:3px;
+	text-transform: uppercase;
+	font-weight:300;
+	color:#2C2759;
+	height: 130px;
+	margin: 10px;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	
+}
+
+/* The button appearance when it's hovered by the cursor, and when it has been clicked*/
+.active, .collapsible:hover {
+	font-weight:500;
+}
+
+.content {
+	padding: 0 20px 20px 20px;
+	max-height: 0;
+	overflow: hidden; /* the overflow property is visible by default, by leaving it hidden it will clip any content that is too big for it's area*/
+	transition: max-height 0.2s ease-out; /* a transition to smooth the opening */
+	background-color: #f1f1f1;
+}
+
+.collapsible:after {
+	content: '+';
+	font-size: 36px;
+	line-height: 30px;
+	font-weight:400;
+	color: white;
+	float: right;
+}
+
+.active:after {
+	content: "-";
+	font-size: 36px;
+	line-height: 30px;
+	font-weight:400;
+	color: white;
+	float: right;
+	margin-left: 5px;
 }
 
 .acupunture{
-	background-image: url("../images/icon-acupunture-01.svg");
-	width:70px;
+	background-image: url("../images/coll-acupunture.jpg");
+}
+
+.massage{
+	background-image: url("../images/coll-massage.jpg");
 }
 
 .energy{
-	background-image: url("../images/icon-reiki-01.svg");
-	width:70px;
-}
-
-.services-section{
-	background-color:white;
-}
-
-.description-box{
-	background-color:#A4A1C2;
-	height: 320px;
-	margin-left:30px;
-	border-radius: 0px;
-	padding:40px;
-}
-#servicetitle{
-	color: white;
-	font-size: 20px;
-	font-weight:400;
-	text-transform: uppercase;
-}
-#servicetext{
-	color: white;
-	font-weight:300;
+	background-image: url("../images/coll-energy.jpg");
 }

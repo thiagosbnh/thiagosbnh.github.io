@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="css/navbar-style.css">
 	<!-- Bootstrap JavaScript Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -38,33 +39,40 @@
 		</div>
 	</nav>
 	
-<!-- First row with service buttons -->	
+<!-- Service buttons with collapsible content -->	
 	<div class="container-fluid pt-4">
+		<br>
 		<center><h1>Our Services</h1>
-		<p>Click on each to see more details.</p></center>	
+		<p>Click on each to see more details.</p></center>
+		<br>
 	</div>
-	<div class="container-fluid services-section">
-		<div class="container">
-			<div class="col d-flex justify-content-center">
-				<div class="col-xs-12 col-md-1">
-					<div class="col-xs-4 col-md-1"><button class="service massage" onclick=""> </button></div>
-					<div class="col-xs-4 col-md-1"><button class="service acupunture" onclick=""> </button></div>
-					<div class="col-xs-4 col-md-1"><button class="service energy" onclick=""> </button></div>
-				</div>
-				<div class="col-xs-12 col-md-6 description-box">
-					<span id="servicetitle">Massage</span><br><span id="servicetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
-				</div>
-			</div>
+	<div class="container">
+		<button class="collapsible acupunture">Acupunture</button> <!-- class collapsible is going to trigger a JavaScript Event Listener to uncollapse the content -->
+		<div class="content">
+		  <p>Acupuncture is a form of alternative medicine and a component of traditional Chinese medicine (TCM) in which thin needles are inserted into the body. There is a range of acupuncture variants which originated in different philosophies, and techniques vary depending on the country in which it is performed, but can be divided into two main foundational philosophical applications and approaches, the first being the modern standardized form called eight principles TCM and the second an older system that is based on the ancient Daoist wuxing, better known as the five elements or phases in the West. Acupuncture is most often used to attempt pain relief, though acupuncturists say that it can also be used for a wide range of other conditions. Acupuncture is generally used only in combination with other forms of treatment.</p>
+		  <p>Acupuncture is a substantial part of traditional Chinese medicine (TCM). Early acupuncture beliefs relied on concepts that are common in TCM, such as a life force energy called qi. Qi was believed to flow from the body's primary organs (zang-fu organs) to the "superficial" body tissues of the skin, muscles, tendons, bones, and joints, through channels called meridians. Acupuncture points where needles are inserted are mainly (but not always) found at locations along the meridians. Acupuncture points not found along a meridian are called extraordinary points and those with no designated site are called "A-shi" points.</p>
+		</div>
+		<button class="collapsible massage">Massage</button>
+		<div class="content">
+		  <p>Massage is the manipulation of the body's soft tissues. Massage techniques are commonly applied with hands, fingers, elbows, knees, forearms, feet or a device. The purpose of massage is generally for the treatment of body stress or pain. In European countries, a person professionally trained to give massages is traditionally known as a masseur (male) or masseuse (female).</p>
+		  <p>Ayurvedic massage is known as Abhyangam in Sanskrit. According to the Ayurvedic Classics Abhayngam is an important dincharya (Daily Regimen) that is needed for maintaining a healthy lifestyle. The massage technique used during Ayurvedic Massage aims to stimulate the lymphatic system. Practitioners claim that the benefits of regular Ayurvedic massage include pain relief, reduction of fatigue, improved immune system and improved longevity.</p>
+		  <p>Myofascial release refers to the manual massage technique that claims to release adhered fascia and muscles with the goal of eliminating pain, increasing range of motion and equilibrioception. Myofascial release usually involves applying shear compression or tension in various directions, cross fiber friction or by skin rolling.</p>
+		</div>
+		<button class="collapsible energy">Energy Healing</button>	
+		<div class="content">
+		  <p>Many people often assume that energy healing and massage therapy are one and the same. However, there is a difference between the two. Energy healing believes that the human energy field extends beyond the body and skin. Energy healing also believes that when the flow of this energy is obstructed or imbalanced, it results in ailments and health problems. So the main aim of energy healing is to restore the balance of the energy field and facilitate healing of the body and mind. It is seen as a natural process of restoring the body, spirit and mind to complete health.</p>
+		  <p>During an energy healing-session, you may not see anything happening unlike massage therapy where you can see the massage therapist actively massaging the body. However, in the energy healing session there are things happening and different people will experience varying effects. Usually, you will experience deep relaxation and it may cause you to fall asleep. The feeling is soothing and warm. You could feel a mild tingling or throbbing sensation, or even feel as though you are floating.</p>
 		</div>
 	</div>
-<!-- Service image + Text-->		
+	<script src="js/script.js"></script> <!-- linking to JavaScript to run the collapsible Event Listener -->
+	
 	
 <!-- footer -->
 	<div class="container-fluid footer"> <!-- container-fluid gives it full width on the page -->
 		<div class="container">
 			<div class="spacer"></div>
 			<div class="row d-flex justify-content-center pb-4"> <!-- display:flex; justify center to have it centered, pb-4 is padding-bottom:4 so the footer has some blank space at the bottom -->
-				<div class="col-xs-12 col-md-5">
+				<div class="col-xs-12 col-md-8">
 					<h5><a href="#">Contact Us</a></h5>
 					<p>Clinic Address<br>Phone: <a href="tel:#">+353 01 234 5678</a><br>Email: <a href="mailto:#">info@holiclinic.ie</a></p>
 					<h6>Opening Hours</h6>
