@@ -13,8 +13,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
 	<!-- Our CSS files -->
 		<link rel="stylesheet" href="css/global-style.css">
-		<link rel="stylesheet" href="css/aboutus-style.css">
-		<link rel="stylesheet" href="css/navbar-style.css">
+		<link rel="stylesheet" href="css/booking-style.css">
 	<!-- Bootstrap JavaScript Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
@@ -32,21 +31,30 @@
 				<ul class="navbar-nav ms-auto mt-3"> <!-- ms-auto brings the menu to the right-side, mt-3 is extra margin at the top -->
 					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Make a Booking</a></li>
+					<li class="nav-item"><a class="nav-link" href="booking.html">Make a Booking</a></li>
 					<li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	
-<!-- Service buttons with collapsible content -->	
-	<div class="container col-xs-12 col-lg-7 pt-4">
-		<br>
+<!-- Header -->	
+	<div class="booking-header">
+		<div class="container col-xs-12 col-lg-7 pt-4">
+			<div class="booking-text">
+				MAKE A BOOKING
+				<!-- <h1>Make a Booking</h1> -->
+				<!-- <span style="font-size:20px; font-weight:400; color:#2C2759;">Please select below an available time slot for the Service you wish to book.</span> -->
+			</div>
+		</div>
+	</div>
+	
+<!-- Calendly Widget for booking -->	
+	<div class="container-fluid pb-5" style="background-color:#FBFCFD">
 		<center>
-			<h1>Make a Booking</h1>
-			<p>This is a paragraph.</p>
+				<div class="calendly-inline-widget" data-url="https://calendly.com/holiclinic?background_color=efefff&text_color=2c2759&primary_color=928ebf" style="min-width:320px;height:750px;"></div>
+				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 		</center>
-		<br>
 	</div>
 	
 	
