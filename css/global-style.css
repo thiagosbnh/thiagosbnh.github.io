@@ -1,3 +1,5 @@
+/* Global Style CSS File - Co-Created by the whole group */
+
 body{
 	font-family: 'Josefin Sans';
 	background-color: #efefff;
@@ -53,6 +55,7 @@ p{
 	color:#2C2759;
 }
 
+/* Style for the Navigation Bar - START */
 .navbar{
 	background-color: #ffffff;
 	font-size: 20px;
@@ -80,33 +83,19 @@ a{
 a:hover{
 	color: #8AAA79
 }
+/* Style for the Navigation Bar - END */
 
+/* Spacer <div> */
 .spacer{
 	height:50px;
 }
 
+/* Footer background-colour */
 .footer{
 	background-color: white;
 }
 
-.cta{
-	font-size:18px;
-	letter-spacing:2px;
-	text-transform: uppercase;
-	font-weight:600;
-	color:#2C2759;
-	height: 180px;
-	width:100%;
-	margin: 10px 0px;
-	border:none;
-	background-size: cover;
-	background-position-x: center;
-	background-position-y: center;
-}
-
-.cta:hover{
-	color:#8AAA79;
-}
+/* Google Maps - make the map responsive */
 
 .map-responsive{
     overflow:hidden;

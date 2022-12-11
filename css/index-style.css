@@ -1,3 +1,5 @@
+/* Index Style CSS File - Co-Created by the whole group */
+
 .header-img{
 	padding:0;
 	margin:0;
@@ -25,6 +27,26 @@
 	top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);	
+}
+
+/* Buttons */
+.cta{
+	font-size:18px;
+	letter-spacing:2px;
+	text-transform: uppercase;
+	font-weight:600;
+	color:#2C2759;
+	height: 180px;
+	width:100%;
+	margin: 10px 0px;
+	border:none;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.cta:hover{
+	color:#8AAA79;
 }
 
 .booking{
